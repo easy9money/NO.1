@@ -15,7 +15,7 @@ int main()
 	int num2 = 0;
 	scanf("%d%d", &num1, &num2);
 	//int sum=num1+num2;
-	//º¯ÊıµÄ½â¾ö·½Ê½
+	//å‡½æ•°çš„è§£å†³æ–¹å¼
 	int sum = Add(num1, num2);
 
 
@@ -27,17 +27,17 @@ int main()
 int main()
 {
 	char c1, c2;
-	printf("ÇëÊäÈëÁ©¸ö×Ö·û c1,c2:");
+	printf("è¯·è¾“å…¥ä¿©ä¸ªå­—ç¬¦ c1,c2:");
 	c1 = getchar();
 	c2 = getchar();
-	//ÉÏÃæÁ©¾ä»°Ò²¿ÉĞ´³Éscanf("%d%d",&c1,&c2);
-	printf("ÓÃputcharÓï¾äÊä³ö½á¹ûÎª:");
+	//ä¸Šé¢ä¿©å¥è¯ä¹Ÿå¯å†™æˆscanf("%d%d",&c1,&c2);
+	printf("ç”¨putcharè¯­å¥è¾“å‡ºç»“æœä¸º:");
 	putchar(c1);
 	putchar(c2);
-	//ÉÏÃæÁ©¾äµÈ¼ÛÓÚprintf("%c%c",c1,c2);
+	//ä¸Šé¢ä¿©å¥ç­‰ä»·äºprintf("%c%c",c1,c2);
 	putchar('\n');
-	//Á¬×ÅÈıÌõputcharÓï¾äµÈÓÚprintf("%c%c\n",c1,c2);
-	printf("ÓÃprintfÓï¾äÊä³ö½á¹ûÎª£º\n");
+	//è¿ç€ä¸‰æ¡putcharè¯­å¥ç­‰äºprintf("%c%c\n",c1,c2);
+	printf("ç”¨printfè¯­å¥è¾“å‡ºç»“æœä¸ºï¼š\n");
 	printf("%c%c", c1, c2);
 	return 0;
 }
