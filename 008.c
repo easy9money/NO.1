@@ -4,7 +4,7 @@
 int main()
 //{
 //	int day;
-//	printf("今天星期：\n");
+//	printf("What day is it today:\n");
 //	scanf("%d", &day);
 //	switch (day)
 //	{
@@ -37,7 +37,7 @@ int main()
 {
 	int m, n;
 
-	printf("输入m和n的值\n");
+	printf("Enter m & n :\n");
 	scanf("%d %d", &m, &n);
 
 	switch (m)
